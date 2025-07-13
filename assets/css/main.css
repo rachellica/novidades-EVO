@@ -2109,11 +2109,11 @@ input, select, textarea {
 	text-align: left;
 }
 		#top .image {
-			border-radius: 100%;
-			width: 20em;
-			height: 20em;
-			margin: 0;
-		}
+	width: 10em;
+	height: 10em;
+	margin: 0 2em 0 0;
+}
+
 
 			#top .image img {
 				border-radius: 100%;
@@ -2198,6 +2198,11 @@ input, select, textarea {
 				padding: 5em 0 5em 0;
 				text-align: center;
 			}
+		
+.wrapper.style-top {
+    text-align: left;
+    padding: 4em 0;
+}
 
 				.wrapper.style4 .row-special {
 					margin: 2em 0 0 0;
