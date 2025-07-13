@@ -2109,10 +2109,11 @@ input, select, textarea {
     margin: 0;
     text-align: left;
 }
-		#top .image {
-	width: 10em;
-	height: 10em;
-	margin: 0 2em 0 0;
+		#top .image img {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
