@@ -1993,6 +1993,12 @@ input, select, textarea {
     text-align: center;
 }
 
+/* Classe customizada para remover padding */
+.no-padding {
+    padding: 0 !important;
+}
+
+
 		.wrapper.style1 {
 			background-image: none;
 			background-color: #fff;
