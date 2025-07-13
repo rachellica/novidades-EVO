@@ -2105,8 +2105,9 @@ input, select, textarea {
 	}
 
 	#top {
-	padding: 4em 0 4em 0;
-	text-align: left;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 		#top .image {
 	width: 10em;
