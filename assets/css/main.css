@@ -2475,3 +2475,22 @@ align-self: flex-start; /* mantém o alinhamento à esquerda */
 .saiba-mais:hover {
   text-decoration: underline;
 }
+.box.style1 {
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 20px; /* espaço interno para o link */
+}
+
+.saiba-mais {
+  font-weight: bold;
+  color: #6C63FF;
+  text-decoration: none;
+  align-self: flex-start; /* alinha o link à esquerda */
+}
+
+.saiba-mais:hover {
+  text-decoration: underline;
+}
