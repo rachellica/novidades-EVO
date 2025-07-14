@@ -2456,24 +2456,19 @@ input, select, textarea {
 
 	}
 .box.style1 {
-  height: 340px; /* altura fixa para todos os cards */
+  height: 360px; /* altura fixa para todos os cards */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start; /* alinha tudo ao topo */
   box-sizing: border-box;
-  padding-bottom: 20px; /* espaço interno para o link */
+  padding-bottom: 20px; text-align: center;
+  background: white;
 }
 
-.saiba-mais {
-  font-weight: bold;
-  color: #6C63FF;
-  text-decoration: none;
+.box.style1 p.saiba-mais-wrapper {
   margin-top: auto; /* empurra o link para a base do card */
-align-self: flex-start; /* mantém o alinhamento à esquerda */
-}
-
-.saiba-mais:hover {
-  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 0;
 }
 .box.style1 {
   min-height: 340px;
