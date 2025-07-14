@@ -2456,7 +2456,7 @@ input, select, textarea {
 
 	}
 .box.style1 {
-  height: 380px; /* altura fixa para todos os cards */
+  height: 400px; /* altura fixa para todos os cards */
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* alinha tudo ao topo */
@@ -2471,7 +2471,7 @@ input, select, textarea {
   margin-bottom: 0;
 }
 .box.style1 {
-  min-height: 380px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
