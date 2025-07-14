@@ -2468,7 +2468,8 @@ input, select, textarea {
   font-weight: bold;
   color: #6C63FF;
   text-decoration: none;
-  align-self: flex-start; /* alinha o link à esquerda */
+  margin-top: auto; /* empurra o link para a base do card */
+align-self: flex-start; /* mantém o alinhamento à esquerda */
 }
 
 .saiba-mais:hover {
